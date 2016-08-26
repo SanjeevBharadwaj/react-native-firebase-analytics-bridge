@@ -21,14 +21,15 @@ RCT_EXPORT_MODULE();
     return self;
 }
 
-//---------------- FIRAnalytics Methods ------------
-//// [START custom_event_objc]
-//RCT_EXPORT_METHOD(logEventWithName:(nonnull NSString *)name parameters:(nullable NSDictionary< NSString *, NSObject * > *) parameters) {
-//    
-//    [FIRAnalytics logEventWithName:name
-//                        parameters:parameters];
-//}
+---------------- FIRAnalytics Methods ------------
+// [START custom_event_objc]
+RCT_EXPORT_METHOD(logEventWithName:(nonnull NSString *)name parameters:(nullable NSDictionary< NSString *, NSObject * > *) parameters) {
+   
+   [FIRAnalytics logEventWithName:name parameters:parameters];
+}
 
-
+RCT_EXPORT_METHOD(setUserPropertyString:(nullable NSString *) value forName:(nonnull NSString *) name) {
+   [FIRAnalytics setUserPropertyString:value forName:name];
+}
 
 @end
