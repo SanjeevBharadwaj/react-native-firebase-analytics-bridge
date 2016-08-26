@@ -14,10 +14,12 @@ class FirebaseAnalytics {
         FirebaseAnalyticsManager.logEventWithName(name, parameters);
     }
 
-
 	static setUserPropertyString(value, name) {
-		FirebaseAnalyticsManager.
+		FirebaseAnalyticsManager.setUserPropertyString(value, name);
 	}
 
+    static setUserID(userID) {
+        FirebaseAnalyticsManager.setUserID(userID);
+    }
 
 module.exports = FirebaseAnalytics;
