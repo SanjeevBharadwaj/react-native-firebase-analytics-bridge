@@ -2,26 +2,26 @@
   "_args": [
     [
       {
-        "raw": "react-native-firebase-analytics-bridge@0.0.1",
+        "raw": "react-native-firebase-analytics-bridge@0.0.4",
         "scope": null,
         "escapedName": "react-native-firebase-analytics-bridge",
         "name": "react-native-firebase-analytics-bridge",
-        "rawSpec": "0.0.1",
-        "spec": "0.0.1",
+        "rawSpec": "0.0.4",
+        "spec": "0.0.4",
         "type": "version"
       },
       "/Users/Sanjeev/Documents/ReactNative/POCFirebase"
     ]
   ],
-  "_from": "react-native-firebase-analytics-bridge@0.0.1",
-  "_id": "react-native-firebase-analytics-bridge@0.0.1",
+  "_from": "react-native-firebase-analytics-bridge@0.0.4",
+  "_id": "react-native-firebase-analytics-bridge@0.0.4",
   "_inCache": true,
   "_installable": true,
   "_location": "/react-native-firebase-analytics-bridge",
   "_nodeVersion": "6.3.1",
   "_npmOperationalInternal": {
     "host": "packages-16-east.internal.npmjs.com",
-    "tmp": "tmp/react-native-firebase-analytics-bridge-0.0.1.tgz_1472201004590_0.9616069020703435"
+    "tmp": "tmp/react-native-firebase-analytics-bridge-0.0.4.tgz_1472201004590_0.9616069020703435"
   },
   "_npmUser": {
     "name": "sanjeevbharadwaj",
@@ -30,22 +30,22 @@
   "_npmVersion": "3.10.7",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "react-native-firebase-analytics-bridge@0.0.1",
+    "raw": "react-native-firebase-analytics-bridge@0.0.4",
     "scope": null,
     "escapedName": "react-native-firebase-analytics-bridge",
     "name": "react-native-firebase-analytics-bridge",
-    "rawSpec": "0.0.1",
-    "spec": "0.0.1",
+    "rawSpec": "0.0.4",
+    "spec": "0.0.4",
     "type": "version"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/react-native-firebase-analytics-bridge/-/react-native-firebase-analytics-bridge-0.0.1.tgz",
+  "_resolved": "https://registry.npmjs.org/react-native-firebase-analytics-bridge/-/react-native-firebase-analytics-bridge-0.0.4.tgz",
   "_shasum": "f730f72255457144130f14896b4c287821f5c299",
   "_shrinkwrap": null,
-  "_spec": "react-native-firebase-analytics-bridge@0.0.1",
+  "_spec": "react-native-firebase-analytics-bridge@0.0.4",
   "_where": "/Users/Sanjeev/Documents/ReactNative/POCFirebase",
   "author": {
     "name": "Sanjeev Bharadwaj",
@@ -60,7 +60,7 @@
   "directories": {},
   "dist": {
     "shasum": "f730f72255457144130f14896b4c287821f5c299",
-    "tarball": "https://registry.npmjs.org/react-native-firebase-analytics-bridge/-/react-native-firebase-analytics-bridge-0.0.1.tgz"
+    "tarball": "https://registry.npmjs.org/react-native-firebase-analytics-bridge/-/react-native-firebase-analytics-bridge-0.0.4.tgz"
   },
   "homepage": "https://github.com/SanjeevBharadwaj/react-native-firebase-analytics-bridge#readme",
   "keywords": [
@@ -97,5 +97,5 @@
   "scripts": {
     "test": "echo \"Error: no test yet!\" && exit 0"
   },
-  "version": "0.0.1"
+  "version": "0.0.4"
 }
