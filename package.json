@@ -89,5 +89,5 @@
   "scripts": {
     "test": "echo \"Error: no test yet!\" && exit 0"
   },
-  "version": "0.0.5"
+  "version": "0.0.7"
 }

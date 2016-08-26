@@ -36,7 +36,7 @@ RCT_EXPORT_METHOD(setUserPropertyString:(nullable NSString *) value forName:(non
 }
 
 RCT_EXPORT_METHOD (setUserID:(nullable NSString *) userID) {
-	[FIRAnalytics setUserID(userID)];	
+	[FIRAnalytics setUserID:(userID)];	
 }
 
 // ---------------- FIRAnalytics (AppDelegate) Methods ------------
@@ -51,19 +51,19 @@ RCT_EXPORT_METHOD (handleUserActivity: (id) userActivity) {
 }
 
 RCT_REMAP_METHOD (sharedInstance, resolver:(RCTPromiseResolveBlock) resolve) {
-    resolve([FIRAnalyticsConfiguration sharedInstance])
+    resolve([FIRAnalyticsConfiguration sharedInstance]);
 }
 
 RCT_EXPORT_METHOD (setMinimumSessionInterval:(NSTimeInterval) minimumSessionInterval) {
-    [FIRAnalyticsConfiguration setMinimumSessionInterval:minimumSessionInterval];
+    [[FIRAnalyticsConfiguration sharedInstance] setMinimumSessionInterval:minimumSessionInterval];
 }
 
 RCT_EXPORT_METHOD (setSessionTimeoutInterval:(NSTimeInterval) sessionTimeoutInterval) {
-    [FIRAnalyticsConfiguration setSessionTimeoutInterval:sessionTimeoutInterval];
+    [[FIRAnalyticsConfiguration sharedInstance] setSessionTimeoutInterval:sessionTimeoutInterval];
 }
 
 RCT_EXPORT_METHOD (setAnalyticsCollectionEnabled:(NSTimeInterval) analyticsCollectionEnabled) {
-    [FIRAnalyticsConfiguration setAnalyticsCollectionEnabled:analyticsCollectionEnabled];
+    [[FIRAnalyticsConfiguration sharedInstance] setAnalyticsCollectionEnabled:analyticsCollectionEnabled];
 }
 
 @end
