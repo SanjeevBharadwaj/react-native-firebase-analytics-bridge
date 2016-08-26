@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-firebase-analytics-bridge@0.0.1",
+        "scope": null,
+        "escapedName": "react-native-firebase-analytics-bridge",
+        "name": "react-native-firebase-analytics-bridge",
+        "rawSpec": "0.0.1",
+        "spec": "0.0.1",
+        "type": "version"
+      },
+      "/Users/Sanjeev/Documents/ReactNative/POCFirebase"
+    ]
+  ],
+  "_from": "react-native-firebase-analytics-bridge@0.0.1",
+  "_id": "react-native-firebase-analytics-bridge@0.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-firebase-analytics-bridge",
+  "_nodeVersion": "6.3.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/react-native-firebase-analytics-bridge-0.0.1.tgz_1472201004590_0.9616069020703435"
+  },
+  "_npmUser": {
+    "name": "sanjeevbharadwaj",
+    "email": "sanjeev.venugopala@gmail.com"
+  },
+  "_npmVersion": "3.10.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-firebase-analytics-bridge@0.0.1",
+    "scope": null,
+    "escapedName": "react-native-firebase-analytics-bridge",
+    "name": "react-native-firebase-analytics-bridge",
+    "rawSpec": "0.0.1",
+    "spec": "0.0.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-firebase-analytics-bridge/-/react-native-firebase-analytics-bridge-0.0.1.tgz",
+  "_shasum": "f730f72255457144130f14896b4c287821f5c299",
+  "_shrinkwrap": null,
+  "_spec": "react-native-firebase-analytics-bridge@0.0.1",
+  "_where": "/Users/Sanjeev/Documents/ReactNative/POCFirebase",
+  "author": {
+    "name": "Sanjeev Bharadwaj",
+    "email": "sanjeev.venugopala@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/SanjeevBharadwaj/react-native-firebase-analytics-bridge/issues"
+  },
+  "dependencies": {},
+  "description": "A simple wrapper to call firebase analytics methods from React native iOS project",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "f730f72255457144130f14896b4c287821f5c299",
+    "tarball": "https://registry.npmjs.org/react-native-firebase-analytics-bridge/-/react-native-firebase-analytics-bridge-0.0.1.tgz"
+  },
+  "homepage": "https://github.com/SanjeevBharadwaj/react-native-firebase-analytics-bridge#readme",
+  "keywords": [
+    "react",
+    "native",
+    "firebase",
+    "analytics",
+    "tracking",
+    "native",
+    "bridge",
+    "events",
+    "screen",
+    "hits",
+    "react-native",
+    "ios",
+    "android",
+    "google"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "maintainers": [
+    {
+      "name": "sanjeevbharadwaj",
+      "email": "sanjeev.venugopala@gmail.com"
+    }
+  ],
+  "name": "react-native-firebase-analytics-bridge",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanjeevBharadwaj/react-native-firebase-analytics-bridge.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test yet!\" && exit 0"
+  },
+  "version": "0.0.1"
+}

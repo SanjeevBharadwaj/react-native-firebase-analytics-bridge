@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF17C8471D705291007CC2A7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AF17C8421D705291007CC2A7 /* README.md */; };
+		AF17C8481D705291007CC2A7 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF17C8461D705291007CC2A7 /* FirebaseAnalytics.framework */; };
+		AF7469801D6FA19400803648 /* RCTFirebaseAnalytics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF74697F1D6FA19400803648 /* RCTFirebaseAnalytics.h */; };
+		AF7469821D6FA19400803648 /* RCTFirebaseAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7469811D6FA19400803648 /* RCTFirebaseAnalytics.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF74697B1D6FA19400803648 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AF7469801D6FA19400803648 /* RCTFirebaseAnalytics.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF17C8401D705291007CC2A7 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		AF17C8411D705291007CC2A7 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		AF17C8421D705291007CC2A7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AF17C8461D705291007CC2A7 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		AF74697D1D6FA19400803648 /* libRCTFirebaseAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTFirebaseAnalytics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF74697F1D6FA19400803648 /* RCTFirebaseAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTFirebaseAnalytics.h; sourceTree = "<group>"; };
+		AF7469811D6FA19400803648 /* RCTFirebaseAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTFirebaseAnalytics.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF74697A1D6FA19400803648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF17C8481D705291007CC2A7 /* FirebaseAnalytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF17C83C1D705291007CC2A7 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				AF17C83D1D705291007CC2A7 /* Firebase */,
+				AF17C8431D705291007CC2A7 /* FirebaseAnalytics */,
+			);
+			name = Library;
+			path = RCTFirebaseAnalytics/Library;
+			sourceTree = "<group>";
+		};
+		AF17C83D1D705291007CC2A7 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				AF17C83E1D705291007CC2A7 /* Analytics */,
+				AF17C8421D705291007CC2A7 /* README.md */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		AF17C83E1D705291007CC2A7 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				AF17C83F1D705291007CC2A7 /* Sources */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		AF17C83F1D705291007CC2A7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AF17C8401D705291007CC2A7 /* Firebase.h */,
+				AF17C8411D705291007CC2A7 /* module.modulemap */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AF17C8431D705291007CC2A7 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				AF17C8441D705291007CC2A7 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		AF17C8441D705291007CC2A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF17C8451D705291007CC2A7 /* frameworks */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF17C8451D705291007CC2A7 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF17C8461D705291007CC2A7 /* FirebaseAnalytics.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		AF7469561D6FA16E00803648 = {
+			isa = PBXGroup;
+			children = (
+				AF74697E1D6FA19400803648 /* RCTFirebaseAnalytics */,
+				AF7469601D6FA16E00803648 /* Products */,
+				AF17C83C1D705291007CC2A7 /* Library */,
+			);
+			sourceTree = "<group>";
+		};
+		AF7469601D6FA16E00803648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF74697D1D6FA19400803648 /* libRCTFirebaseAnalytics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF74697E1D6FA19400803648 /* RCTFirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				AF74697F1D6FA19400803648 /* RCTFirebaseAnalytics.h */,
+				AF7469811D6FA19400803648 /* RCTFirebaseAnalytics.m */,
+			);
+			path = RCTFirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF74697C1D6FA19400803648 /* RCTFirebaseAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7469831D6FA19400803648 /* Build configuration list for PBXNativeTarget "RCTFirebaseAnalytics" */;
+			buildPhases = (
+				AF7469791D6FA19400803648 /* Sources */,
+				AF74697A1D6FA19400803648 /* Frameworks */,
+				AF74697B1D6FA19400803648 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTFirebaseAnalytics;
+			productName = RCTFirebaseAnalytics;
+			productReference = AF74697D1D6FA19400803648 /* libRCTFirebaseAnalytics.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF7469571D6FA16E00803648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = QueVisions;
+				TargetAttributes = {
+					AF74697C1D6FA19400803648 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AF74695A1D6FA16E00803648 /* Build configuration list for PBXProject "RCTFirebaseAnalytics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF7469561D6FA16E00803648;
+			productRefGroup = AF7469601D6FA16E00803648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF74697C1D6FA19400803648 /* RCTFirebaseAnalytics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF7469791D6FA19400803648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF17C8471D705291007CC2A7 /* README.md in Sources */,
+				AF7469821D6FA19400803648 /* RCTFirebaseAnalytics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF7469741D6FA16E00803648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF7469751D6FA16E00803648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF7469841D6FA19400803648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTFirebaseAnalytics/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/RCTFirebaseAnalytics/Library/FirebaseAnalytics/Frameworks/frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/node_modules/react-native/React",
+					"$(SRCROOT)/../../example/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF7469851D6FA19400803648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTFirebaseAnalytics/FirebaseAnalytics/Frameworks/frameworks",
+					"$(PROJECT_DIR)/RCTFirebaseAnalytics/Library/FirebaseAnalytics/Frameworks/frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/node_modules/react-native/React",
+					"$(SRCROOT)/../../example/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF74695A1D6FA16E00803648 /* Build configuration list for PBXProject "RCTFirebaseAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7469741D6FA16E00803648 /* Debug */,
+				AF7469751D6FA16E00803648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7469831D6FA19400803648 /* Build configuration list for PBXNativeTarget "RCTFirebaseAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7469841D6FA19400803648 /* Debug */,
+				AF7469851D6FA19400803648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF7469571D6FA16E00803648 /* Project object */;
+}
